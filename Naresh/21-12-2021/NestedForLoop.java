@@ -41,13 +41,28 @@ class NestedForLoop
 		System.out.println();
 		}*/
 
-		for(int i=1; i<6;i++) {
+		/*for(int i=1; i<6;i++) {
 			         
 		for(int j=5; j>0;j--) {
 			// 5 <= 5
 		if(i <= j) System.out.print("*");
 		}
 		System.out.println();
+		}*/
+
+        /*for(int i=5; i>0; i--) {	         
+		for(int j=5; j>0;j--) {//55555
+		System.out.print(i);	
 		}
+		System.out.println();
+		}*/
+
+		for(int i=5; i>0; i--) {	         
+		for(int j=5; j>0; j--) {
+		System.out.print(j);	
+		}
+		System.out.println();
+		}
+
 	}
 }
