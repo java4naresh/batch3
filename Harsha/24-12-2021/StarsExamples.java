@@ -24,7 +24,7 @@ class StarsExamples
 			         
 		for(int j=1; j<6;j++) {
 			
-		if(i <= j) System.out.print("*");
+		if(i < j) System.out.print("*");
 		else
 		System.out.print(" ");
 		}
@@ -33,7 +33,7 @@ class StarsExamples
 
 		for(int j=5; j>0;j--) {
 			
-		if(i <= j) System.out.print("*");
+		if(i < j) System.out.print("*");
 		}
 		System.out.println();
 	}
