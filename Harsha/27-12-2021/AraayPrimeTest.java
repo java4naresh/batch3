@@ -3,25 +3,22 @@ class AraayPrimeTest
 	public static void main(String[] args) 
 	{
 		int[] numbers = {1,2,3,4,5,6,7,8,9};
-		int n =1 ;
-		boolean flag = true;
-
+		
 		for(int i=0;i<numbers.length;i++)
 		{
-			
+			boolean flag = true;
+			for(int j=2;j<numbers[i];j++)
 			{
+			if(numbers[i] % j == 0) {
 				flag = false;
 				break;
 			}
 			
 		}
-		if(flag)
+		if(flag){
 			
-			System.out.println(numbers +"is Prime Number");
-			else
-			
-			System.out.println(numbers +"is not Prime Number");
-		
+			System.out.println(numbers[i]);
+		}
 
-	}
+	}}
 }
